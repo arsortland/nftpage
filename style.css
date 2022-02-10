@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "PressStart2P";
+    src: url(./PressStart2P-vaV7.ttf) format(truetype);
+}
+
+html{
+    font-family: "PressStart2P";
+    background-color: white;
+}
+body{
+    border: 3px solid blue;
+    background-color: grey;
+}
+
+.mute{
+    padding: 4rem;
+}
+button{
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    border: 2px solid blue;
+    font-size: 1.5rem;
+    background-color: rgb(160, 160, 160);
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button[type=button]{
+    font-family: "PressStart2P";
+}
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+}
+.timer{
+    padding: 10px;
+    font-size: 3rem;
+    border: 4px solid blue;
+    box-shadow: 20px 20px 20px rgb(0, 0, 0);
+}
+
+.gif{
+    align-self: center;
+    justify-self: flex-start;
+    height: 50%;
+}
